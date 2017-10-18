@@ -61,6 +61,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 googleMap.clear();
 int x=0;
                 int y=1;
+                int z=2;
                 // Animating to the touched position
                 googleMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
 
