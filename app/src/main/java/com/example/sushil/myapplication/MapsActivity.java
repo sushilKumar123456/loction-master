@@ -63,6 +63,7 @@ int x=0;
                 int y=1;
                 int z=2;
                 int bb=00;
+                int vv=0;
 
                 // Animating to the touched position
                 googleMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
